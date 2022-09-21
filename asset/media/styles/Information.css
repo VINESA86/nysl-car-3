@@ -21,22 +21,17 @@
   }
   .container2{
     display: flex;
-    justify-content: center;
-    width: 1424px;
-  }
-  .image{
-    width: 1280px;
-    height: 800px;
-  }
-  .container3{
-      display:flex;
-      justify-content: flex-start;
-      align-items:center;
-      width:100%;
+    justify-content: space-between;
+
   }
   .navbar{
     margin-left:28px;
   }
+  .navigationbar{
+    margin-right: 35px;
+    margin-left: -3rem;
+    margin-top: 10rem;
+}
   .homebox{
     border:1px solid white;
     color:white;
@@ -87,6 +82,7 @@
   }
   .information{
     color: white;
+    text-decoration: none;
   }
   .rulesbox{
     border:1px solid white;
@@ -118,14 +114,20 @@
     margin-top:20px;
   }
   .contact{
-    text-decoration: none;
     color:white;
-  }
-  .contact-mail{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 23rem;
-    align-items: center;
-    font-size: 25px;
-  }
+  }  
+  
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin:auto;
+    font-size: 15px;
+    margin-right: 5rem;
+}
+th,td{
+    padding: 10px;
+}
+th{
+    background-color: rgb(67, 136, 233);
+
+}
