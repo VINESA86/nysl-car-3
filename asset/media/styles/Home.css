@@ -9,7 +9,6 @@ body{
     color:white;
     font-size: 20px;
 } 
-
 .logo{
     width: 60px;
     height: 60px;
@@ -19,6 +18,11 @@ body{
     display:flex;
     width: 100%;
     justify-content: center;
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  width: 1424px;
 }
 .image{
   width: 1280px;
@@ -36,7 +40,7 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: 20rem;
+  margin-left: 26rem;
   align-items: center;
 }
 .homebox{
