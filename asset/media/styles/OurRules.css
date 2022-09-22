@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Orbitron;
+    src: url("../styles/Font/Orbitron/static/Orbitron-Regular.ttf");
+   }
+  body{
+      background: black;
+      font-family:Orbitron, sans-serif;
+      font-weight:bold;
+      color:white;
+      font-size: 20px;
+  } 
+  .logo{
+      width: 60px;
+      height: 60px;
+      margin-top:18px;
+  }
+  .container1{
+      display:flex;
+      width: 100%;
+      justify-content: center;
+  }
+  .container2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar{
+    margin-left:28px;
+  }
+  .navigationbar{
+    margin-right: 35px;
+    margin-left: -3rem;
+    margin-top: 10rem;
+}
+  .homebox{
+    border:1px solid white;
+    color:white;
+    font-size: 25px;
+    background-color: rgb(0, 72, 255);
+    width: 134px;
+    height: 40px;
+    text-align: center;
+    line-height:40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top:20px;
+  }
+  .home{
+    color:white;
+  }
+  li{
+    list-style: none;
+  }
+  .aboutbox{
+    border:1px solid white;
+    color:white;
+    font-size: 25px;
+    background-color: rgb(0, 72, 255);
+    width: 134px;
+    height: 40px;
+    text-align: center;
+    line-height:40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top:20px;
+  }
+  .about{
+    color:white;
+  }
+  .informationbox{
+    border:1px solid white;
+    color:white;
+    font-size: 25px;
+    background-color: rgb(0, 72, 255);
+    width: 134px;
+    height: 40px;
+    text-align: center;
+    line-height:40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top:20px;
+  }
+  .information{
+    color: white;
+  }
+  .rulesbox{
+    border:1px solid white;
+    color:white;
+    font-size: 25px;
+    background-color: rgb(0, 72, 255);
+    width: 134px;
+    height: 40px;
+    text-align: center;
+    line-height:40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top:20px;
+  }
+  .safetyrules{
+    color:white;
+    text-decoration: none;
+  }
+  .contactbox{
+    border:1px solid white;
+    color:white;
+    font-size: 25px;
+    background-color: rgb(0, 72, 255);
+    width: 134px;
+    height: 40px;
+    text-align: center;
+    line-height:40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top:20px;
+  }
+  .contact{
+    color:white;
+  }  
+ .midiamcontainer{
+    display: flex;
+    justify-content: center;
+ } 
+ .oursafetyrules{
+    margin-right: 8rem;
+ }
