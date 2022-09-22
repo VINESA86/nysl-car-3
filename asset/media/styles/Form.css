@@ -2,7 +2,7 @@
     font-family: Orbitron;
     src: url("../styles/Font/Orbitron/static/Orbitron-Regular.ttf");
    }
-  body{
+ body{
       background: black;
       font-family:Orbitron, sans-serif;
       font-weight:bold;
@@ -21,18 +21,20 @@
   }
   .container2{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    width: 1424px;
+    overflow:hidden;
   }
-  .navbar{
-    margin-left:28px;
-  }
-  .navigationbar{
-    margin-right: 35px;
-    margin-left: -3rem;
-    margin-top: 10rem;
+ .container3{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
 }
-  .homebox{
+.navbar{
+  margin-left:28px;
+  margin-bottom: 40rem;
+}
+.homebox{
     border:1px solid white;
     color:white;
     font-size: 25px;
@@ -82,7 +84,6 @@
   }
   .information{
     color: white;
-    text-decoration: none;
   }
   .rulesbox{
     border:1px solid white;
@@ -115,7 +116,7 @@
   }
   .contact{
     color:white;
-  } 
+  }
   .formbox{
     border:1px solid white;
     color:white;
@@ -131,19 +132,12 @@
   }
   .form {
     color:white;
-  } 
+    text-decoration: none;
+    margin-top:4rem;
+  }
+  .registrationform{
+    margin-left: 8rem;
+  }
   
-table{
-    border-collapse: collapse;
-    border: 1px solid black;
-    margin:auto;
-    font-size: 15px;
-    margin-right: 5rem;
-}
-th,td{
-    padding: 10px;
-}
-th{
-    background-color: rgb(67, 136, 233);
-
-}
+  
+  
